@@ -16,9 +16,9 @@ All the model files can be found in `./model`. All sample models are stored resp
 
 ## How to use the files?
 
-For testing purpose, use `testing` dataset and match each `use case` to the model found in `./model`.
+For testing purpose, match the `use case` to the model found in `./model`. and test dataset found in `./data`.
 
 For example, if you are going to test regression models, the respective test dataset can be found by matching the use case `insurance`.
 
-- ./models/sklearn/1.2.2/regression_**insurance**_sklearn_....sav
-- ./data/pickle_pandas_tabular_**insurance**_testing.sav
+- `./models/sklearn/1.2.2/regression_**insurance** _sklearn_....sav`
+- `./data/pickle_pandas_tabular_**insurance**_testing.sav`
