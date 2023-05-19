@@ -16,7 +16,6 @@ class dataProcessingStage:
     def transform(self, X):
         """Convert columns into dataframe for model input"""
         df = X.copy()
-        df.drop(self._ground_truth_label, axis=1)
         df = df.drop("Loan_ID", axis=1)
 
         df["Loan_Amount_Requested"] = df["Loan_Amount_Requested"].str.replace(",", "")
